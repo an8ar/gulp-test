@@ -1,8 +1,6 @@
 import React, { useState } from 'react';
 
-import reactLogo from './assets/react.svg';
-
-import './App.css';
+import { Input } from './components/ui/input';
 
 function App() {
   const [count, setCount] = useState(0);
@@ -11,29 +9,7 @@ function App() {
     console.log('ansar');
   }
 
-  return (
-    <>
-      <div>
-        <a href="https://react.dev" target="_blank" rel="noreferrer">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((prev) => prev + 1)} type="submit">
-          count is
-          {count}
-        </button>
-        <p>
-          Edit
-          <code>src/App.tsx</code>
-          and save to test HMR
-        </p>
-        <div className="text-lg text-slate-600">Ansar Serikbayev</div>
-      </div>
-      <p className="read-the-docs">Click on the Vite and React logos to learn more</p>
-    </>
-  );
+  return <Input />;
 }
 
 export default App;

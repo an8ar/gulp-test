@@ -11,7 +11,8 @@ src/serviceWorker.ts
 src/vite-env.d.ts
 .eslintrc.js
 vite.config.ts
-
+src/components/ui
 
 *.css
 *.svg
+postcss.config.js
