@@ -1,15 +1,16 @@
-import React, { useState } from 'react';
+import React from 'react';
 
-import { Input } from './components/ui/input';
+import { ToastContainer } from 'react-toastify';
+
+import { AppRoutes } from './routes';
 
 function App() {
-  const [count, setCount] = useState(0);
-
-  if (true) {
-    console.log('ansar');
-  }
-
-  return <Input />;
+  return (
+    <>
+      <AppRoutes />
+      <ToastContainer />
+    </>
+  );
 }
 
 export default App;
