@@ -20,6 +20,12 @@ module.exports = {
         '2xl': '1400px',
       },
     },
+    flexGrow: {
+      0: '0',
+      1: '1',
+      2: '2',
+      3: '3',
+    },
     extend: {
       colors: {
         border: 'hsl(var(--border))',

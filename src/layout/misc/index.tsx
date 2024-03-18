@@ -11,7 +11,7 @@ export function MiscLayout({ children }: Props) {
   return (
     <div className="flex flex-col h-screen justify-between">
       <Header />
-      <div className="flex-1">{children}</div>
+      <div className="flex-1 px-10">{children}</div>
       <Footer />
     </div>
   );

@@ -11,15 +11,7 @@ const { QuizPage } = lazyImport(() => import('./quiz-page'), 'QuizPage');
 const { TakeQuizPage } = lazyImport(() => import('./take-quiz-page'), 'TakeQuizPage');
 
 export const UserRoutes = [
-  <Route
-    path="profile"
-    element={
-      <MiscLayout>
-        <ProfilePage />
-      </MiscLayout>
-    }
-    key="profile"
-  />,
+  <Route path="profile" element={<ProfilePage />} key="profile" />,
   <Route
     path="quiz:id"
     element={
