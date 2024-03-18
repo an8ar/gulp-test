@@ -51,6 +51,7 @@
     "eslint-plugin-react-refresh": "^0.4.5",
     "eslint-plugin-unused-imports": "^2.0.0",
     "postcss": "^8.4.36",
+    "tslint-config-prettier": "^1.18.0",
     "typescript": "*",
     "vite": "^5.1.6",
     "vite-tsconfig-paths": "^4.3.2"

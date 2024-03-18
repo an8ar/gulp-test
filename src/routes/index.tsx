@@ -14,7 +14,18 @@ export function AppRoutes() {
         <Route path="/user" element={<ProtectedRoute />} key="user">
           {UserRoutes}
         </Route>
-        /
+
+        <Route
+          path="*"
+          element={
+            // eslint-disable-next-line react/jsx-wrap-multilines
+            <>
+              <h2 className="text-center text-6xl">Not Found 404</h2>
+              <h5 className="text-center">Wait some time</h5>
+            </>
+          }
+        />
+
         {/*
 
         in future for not found pages
